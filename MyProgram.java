@@ -16,6 +16,6 @@ import acm.program.*;
 public class MyProgram extends GraphicsProgram {
 	public void run() {
 		add(new GLabel("I love Java!", 100, 75));
-                add(new GLabel("Batman", 700, 500));
+                add(new GLabel("Batman", 700, 450));
 	}
 }
