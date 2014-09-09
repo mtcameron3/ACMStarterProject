@@ -10,15 +10,16 @@
  */
 
 
-
 import acm.program.*;
-
 public class MyProgram extends ConsoleProgram {
-	public void run(){
-		double b = readDouble("enter b: ");
-		double h = readDouble("enter h: ");
-		double a = (b * h) / 2;
-		println("a = " + a);
+	
+	public void run() {
+		println("This program adds two integers.");
+		int n1 = readInt("Enter n1: ");
+		int n2 = readInt("Enter n2: ");
+		int n3 = readInt("Enter n3: ");
+		int total = n1 + n2 + n3;
+		println("The total is " + total + ".");
 	}
 }
 	
