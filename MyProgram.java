@@ -23,8 +23,8 @@ public class MyProgram extends GraphicsProgram {
 		add(rect);
 		
 		GRect windowL = new GRect(120, 50, 50, 100);
-		rect.setFilled(true);
-		rect.setColor(Color.WHITE);
+		windowL.setFilled(true);
+		windowL.setColor(Color.WHITE);
 		add(windowL);
 		
 		add(new GLine(250, 150, 400, 300));
