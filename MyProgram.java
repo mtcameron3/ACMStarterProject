@@ -13,6 +13,7 @@
 import acm.graphics.*;
 import acm.program.*;
 import java.awt.*;
+
 public class MyProgram extends GraphicsProgram {
 	
 	public void run() {
@@ -20,5 +21,9 @@ public class MyProgram extends GraphicsProgram {
 		rect.setFilled(true);
 		rect.setColor(Color.BLUE);
 		add(rect);
+		
+		add(new GLine(30, 60, 120, 60));
+		add(new GLine(30, 90, 120, 90));
 	}
+	
 }
