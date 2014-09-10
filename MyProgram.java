@@ -15,6 +15,6 @@ import acm.program.*;
 public class MyProgram extends GraphicsProgram {
 	
 	public void run() {
-		add(new GLine(600, 80, 70, 80));
+		add(new GLine(600, 100, 70, 100));
 	}
 }
