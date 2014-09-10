@@ -32,7 +32,7 @@ public class MyProgram extends GraphicsProgram {
 		windowR.setColor(Color.WHITE);
 		add(windowR);
 		
-		GRect door = new GRect(150, 50, 50, 70);
+		GRect door = new GRect(200, 50, 50, 70);
 		door.setFilled(true);
 		door.setColor(Color.GRAY);
 		add(door);
