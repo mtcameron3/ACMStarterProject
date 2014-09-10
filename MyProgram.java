@@ -22,7 +22,7 @@ public class MyProgram extends GraphicsProgram {
 		rect.setColor(Color.BLUE);
 		add(rect);
 		
-		add(new GLine(250, 60, 600, 60));
+		add(new GLine(250, 60, 300, 60));
 		add(new GLine(30, 90, 120, 90));
 	}
 	
