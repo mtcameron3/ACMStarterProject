@@ -36,7 +36,7 @@ public class MyProgram extends GraphicsProgram {
 		door.setFilled(true);
 		door.setColor(Color.GRAY);
 		add(door);
-		GOval knob = new GOval(230, 415, 10, 10);
+		GOval knob = new GOval(230, 430, 10, 10);
 		knob.setFilled(true);
 		knob.setFillColor(Color.BLACK);
 		add(knob);
