@@ -22,7 +22,7 @@ public class MyProgram extends GraphicsProgram {
 		rect.setColor(Color.BLUE);
 		add(rect);
 		
-		GRect windowL = new GRect(120, 350, 350, 100);
+		GRect windowL = new GRect(120, 350, 50, 50);
 		windowL.setFilled(true);
 		windowL.setColor(Color.YELLOW);
 		add(windowL);
