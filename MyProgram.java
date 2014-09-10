@@ -43,6 +43,9 @@ public class MyProgram extends GraphicsProgram {
 		
 		add(new GLine(250, 150, 400, 300));
 		add(new GLine(250, 150, 100, 300));
+		
+		add(new GLine(250, 175, 100, 300));
+		add(new GLine(250, 150, 100, 300));
 	}
 	
 }
