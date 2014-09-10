@@ -27,6 +27,11 @@ public class MyProgram extends GraphicsProgram {
 		windowL.setColor(Color.YELLOW);
 		add(windowL);
 		
+		GRect windowR = new GRect(180, 375, 50, 50);
+		windowL.setFilled(true);
+		windowL.setColor(Color.YELLOW);
+		add(windowR);
+		
 		add(new GLine(250, 150, 400, 300));
 		add(new GLine(250, 150, 100, 300));
 	}
