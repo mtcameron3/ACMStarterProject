@@ -12,9 +12,13 @@
 
 import acm.graphics.*;
 import acm.program.*;
+import java.awt.*;
 public class MyProgram extends GraphicsProgram {
 	
 	public void run() {
-		add(new GLine(500, 200, 70, 200));
+		GRect rect = new GRect(100, 50, 125, 60);
+		rect.setFilled(true);
+		rect.setColor(Color.BLUE);
+		add(rect);
 	}
 }
