@@ -24,12 +24,12 @@ public class MyProgram extends GraphicsProgram {
 		
 		GRect windowL = new GRect(130, 375, 50, 50);
 		windowL.setFilled(true);
-		windowL.setColor(Color.YELLOW);
+		windowL.setColor(Color.WHITE);
 		add(windowL);
 		
 		GRect windowR = new GRect(320, 375, 50, 50);
 		windowR.setFilled(true);
-		windowR.setColor(Color.YELLOW);
+		windowR.setColor(Color.WHITE);
 		add(windowR);
 		
 		add(new GLine(250, 150, 400, 300));
