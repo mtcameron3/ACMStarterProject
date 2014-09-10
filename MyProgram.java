@@ -10,13 +10,19 @@
  */
 
 
-import acm.graphics.*;
 import acm.program.*;
 
-public class MyProgram extends GraphicsProgram {
-	public void run() {
-		add(new GLabel("I love Java!", 100, 75));
-                add(new GLabel("Batman", 700, 450));
+/* This part of the program allows the user to enter
+ * two numbers to be multiplied and then divided by
+ * the number two.  It will then print the answer.
+ */
+
+
+public class MyProgram extends ConsoleProgram {
+	public void run(){
+		double b = readDouble("enter b: ");
+		double h = readDouble("enter h: ");
+		double a = (b * h) / 2;
+		println("a = " + a);
 	}
 }
-	
