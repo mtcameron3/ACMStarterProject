@@ -16,7 +16,7 @@ import java.awt.*;
 public class MyProgram extends GraphicsProgram {
 	
 	public void run() {
-		GRect rect = new GRect(300, 200, 300, 150);
+		GRect rect = new GRect(250, 200, 300, 150);
 		rect.setFilled(true);
 		rect.setColor(Color.BLUE);
 		add(rect);
