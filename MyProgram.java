@@ -10,16 +10,13 @@
  */
 
 
+import acm.graphics.*;
 import acm.program.*;
-public class MyProgram extends ConsoleProgram {
-	
+
+public class MyProgram extends GraphicsProgram {
 	public void run() {
-		println("This program adds two integers.");
-		int n1 = readInt("Enter n1: ");
-		int n2 = readInt("Enter n2: ");
-		int n3 = readInt("Enter n3: ");
-		int total = n1 + n2 + n3;
-		println("The total is " + total + ".");
+		add(new GLabel("I love Java!", 100, 75));
+                add(new GLabel("Batman", 700, 450));
 	}
 }
 	
