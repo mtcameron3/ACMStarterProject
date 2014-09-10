@@ -22,10 +22,10 @@ public class MyProgram extends GraphicsProgram {
 		rect.setColor(Color.BLUE);
 		add(rect);
 		
-		GRect rect = new GRect(120, 50, 50, 100);
+		GRect windowL = new GRect(120, 50, 50, 100);
 		rect.setFilled(true);
 		rect.setColor(Color.WHITE);
-		add(rect);
+		add(windowL);
 		
 		add(new GLine(250, 150, 400, 300));
 		add(new GLine(250, 150, 100, 300));
