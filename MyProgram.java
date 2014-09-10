@@ -23,7 +23,7 @@ public class MyProgram extends GraphicsProgram {
 		add(rect);
 		
 		add(new GLine(250, 150, 500, 300));
-		add(new GLine(250, 150, 450, 300));
+		add(new GLine(250, 150, 20, 300));
 	}
 	
 }
