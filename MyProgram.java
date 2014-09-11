@@ -17,15 +17,15 @@ import java.awt.*;
 public class MyProgram extends GraphicsProgram {
 	
 	public void run() {
-		GRect head = new GRect(300, 150, 150, 250);
-		head.setFilled(true);
-		head.setColor(Color.MAGENTA);
-		add(head);
+		GRect Head = new GRect(300, 150, 150, 250);
+		Head.setFilled(true);
+		Head.setColor(Color.MAGENTA);
+		add(Head);
 		
-		GRect mouth = new GRect(315, 365, 120, 15);
-		mouth.setFilled(true);
-		mouth.setColor(Color.YELLOW);
-		add(mouth);
+		GRect Mouth = new GRect(315, 365, 120, 15);
+		Mouth.setFilled(true);
+		Mouth.setColor(Color.YELLOW);
+		add(Mouth);
 		
 		GRect Nose = new GRect(365, 300, 20, 35);
 		Nose.setFilled(true);
@@ -41,6 +41,11 @@ public class MyProgram extends GraphicsProgram {
 		EyeL.setFilled(true);
 		EyeL.setColor(Color.LIGHT_GRAY);
 		add(EyeL);
+		
+		GRect Moustache = new GRect(290, 365, 120, 15);
+		Moustache.setFilled(true);
+		Moustache.setColor(Color.GREEN);
+		add(Moustache);
 		
 	}
 }
