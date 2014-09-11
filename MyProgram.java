@@ -17,46 +17,34 @@ import java.awt.*;
 public class MyProgram extends GraphicsProgram {
 	
 	public void run() {
-		GRect Head = new GRect(300, 150, 150, 250);
-		Head.setFilled(true);
-		Head.setColor(Color.MAGENTA);
-		add(Head);
+		GRect rect = new GRect(100, 300, 300, 200);
+		rect.setFilled(true);
+		rect.setColor(Color.BLUE);
+		add(rect);
 		
-		GRect Mouth = new GRect(315, 365, 120, 15);
-		Mouth.setFilled(true);
-		Mouth.setColor(Color.YELLOW);
-		add(Mouth);
+		GRect windowL = new GRect(130, 375, 50, 50);
+		windowL.setFilled(true);
+		windowL.setColor(Color.WHITE);
+		add(windowL);
 		
-		GRect Nose = new GRect(365, 300, 20, 35);
-		Nose.setFilled(true);
-		Nose.setColor(Color.ORANGE);
-		add(Nose);
+		GRect windowR = new GRect(320, 375, 50, 50);
+		windowR.setFilled(true);
+		windowR.setColor(Color.WHITE);
+		add(windowR);
 		
-		GOval EyeR = new GOval(320, 200, 20, 20);
-		EyeR.setFilled(true);
-		EyeR.setColor(Color.WHITE);
-		add(EyeR);
-	
-		GOval EyeL = new GOval(410, 200, 20, 20);
-		EyeL.setFilled(true);
-		EyeL.setColor(Color.BLUE);
-		add(EyeL);
+		GRect door = new GRect(225, 400, 50, 100);
+		door.setFilled(true);
+		door.setColor(Color.GRAY);
+		add(door);
+		GOval knob = new GOval(230, 440, 10, 10);
+		knob.setFilled(true);
+		knob.setFillColor(Color.BLACK);
+		add(knob);
 		
-		GRect Moustache = new GRect(280, 355, 190, 5);
-		Moustache.setFilled(true);
-		Moustache.setColor(Color.GREEN);
-		add(Moustache);
-		
-		GRect EarL = new GRect(285, 235, 15, 30);
-		EarL.setFilled(true);
-		EarL.setColor(Color.CYAN);
-		add(EarL);
-		
-		GRect EarR = new GRect(450, 235, 15, 30);
-		EarR.setFilled(true);
-		EarR.setColor(Color.PINK);
-		add(EarR);
+		add(new GLine(250, 150, 400, 300));
+		add(new GLine(250, 150, 100, 300));
 		
 	}
+	
 }
 
