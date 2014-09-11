@@ -17,33 +17,10 @@ import java.awt.*;
 public class MyProgram extends GraphicsProgram {
 	
 	public void run() {
-		GRect rect = new GRect(100, 300, 300, 200);
-		rect.setFilled(true);
-		rect.setColor(Color.BLUE);
-		add(rect);
-		
-		GRect windowL = new GRect(130, 375, 50, 50);
-		windowL.setFilled(true);
-		windowL.setColor(Color.WHITE);
-		add(windowL);
-		
-		GRect windowR = new GRect(320, 375, 50, 50);
-		windowR.setFilled(true);
-		windowR.setColor(Color.WHITE);
-		add(windowR);
-		
-		GRect door = new GRect(225, 400, 50, 100);
-		door.setFilled(true);
-		door.setColor(Color.GRAY);
-		add(door);
-		GOval knob = new GOval(230, 440, 10, 10);
-		knob.setFilled(true);
-		knob.setFillColor(Color.BLACK);
-		add(knob);
-		
-		add(new GLine(250, 150, 400, 300));
-		add(new GLine(250, 150, 100, 300));
-		
+		GOval oval01 = new GOval(100, 50, 125, 60);
+		oval01.setFilled(true);
+		oval01.setFillColor(Color.RED);
+		add(oval01);
 	}
 	
 }
