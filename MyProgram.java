@@ -27,7 +27,7 @@ public class MyProgram extends GraphicsProgram {
 		mouth.setColor(Color.YELLOW);
 		add(mouth);
 		
-		GRect Nose = new GRect(365, 300, 20, 25);
+		GRect Nose = new GRect(365, 300, 20, 35);
 		Nose.setFilled(true);
 		Nose.setColor(Color.DARK_GRAY);
 		add(Nose);
