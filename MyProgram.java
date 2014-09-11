@@ -52,7 +52,7 @@ public class MyProgram extends GraphicsProgram {
 		EarL.setColor(Color.RED);
 		add(EarL);
 		
-		GRect EarR = new GRect(450, 235, 15, 30);
+		GRect EarR = new GRect(451, 235, 15, 30);
 		EarR.setFilled(true);
 		EarR.setColor(Color.PINK);
 		add(EarR);
