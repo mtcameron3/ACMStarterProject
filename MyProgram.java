@@ -37,7 +37,7 @@ public class MyProgram extends GraphicsProgram {
 		EyeR.setColor(Color.LIGHT_GRAY);
 		add(EyeR);
 	
-		GOval EyeL = new GOval(420, 200, 20, 20);
+		GOval EyeL = new GOval(400, 200, 20, 20);
 		EyeL.setFilled(true);
 		EyeL.setColor(Color.LIGHT_GRAY);
 		add(EyeL);
