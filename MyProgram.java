@@ -17,7 +17,7 @@ import java.awt.*;
 public class MyProgram extends GraphicsProgram {
 	
 	public void run() {
-		GRect head = new GRect(300, 150, 150, 200);
+		GRect head = new GRect(300, 150, 150, 250);
 		head.setFilled(true);
 		head.setColor(Color.MAGENTA);
 		add(head);
