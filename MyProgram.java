@@ -10,6 +10,7 @@
  */
 
 
+
 import acm.graphics.*;
 import acm.program.*;
 import java.awt.*;
@@ -17,32 +18,20 @@ import java.awt.*;
 public class MyProgram extends GraphicsProgram {
 	
 	public void run() {
-		GRect rect = new GRect(100, 300, 300, 200);
-		rect.setFilled(true);
-		rect.setColor(Color.BLUE);
-		add(rect);
+		GOval oval01 = new GOval(300, 100, 100, 100);
+		oval01.setFilled(true);
+		oval01.setFillColor(Color.RED);
+		add(oval01);
 		
-		GRect windowL = new GRect(130, 375, 50, 50);
-		windowL.setFilled(true);
-		windowL.setColor(Color.WHITE);
-		add(windowL);
+		GOval oval02 = new GOval(315, 115, 70, 70);
+		oval02.setFilled(true);
+		oval02.setFillColor(Color.WHITE);
+		add(oval02);
 		
-		GRect windowR = new GRect(320, 375, 50, 50);
-		windowR.setFilled(true);
-		windowR.setColor(Color.WHITE);
-		add(windowR);
-		
-		GRect door = new GRect(225, 400, 50, 100);
-		door.setFilled(true);
-		door.setColor(Color.GRAY);
-		add(door);
-		GOval knob = new GOval(230, 440, 10, 10);
-		knob.setFilled(true);
-		knob.setFillColor(Color.BLACK);
-		add(knob);
-		
-		add(new GLine(250, 150, 400, 300));
-		add(new GLine(250, 150, 100, 300));
+		GOval oval03 = new GOval(335, 135, 30, 30);
+		oval03.setFilled(true);
+		oval03.setFillColor(Color.RED);
+		add(oval03);
 		
 	}
 	
