@@ -17,7 +17,7 @@ import java.awt.*;
 public class MyProgram extends GraphicsProgram {
 	
 	public void run() {
-		GOval oval01 = new GOval(300, 100, 0, 60);
+		GOval oval01 = new GOval(300, 100, 20, 60);
 		oval01.setFilled(true);
 		oval01.setFillColor(Color.RED);
 		add(oval01);
