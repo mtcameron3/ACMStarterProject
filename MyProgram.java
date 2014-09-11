@@ -48,9 +48,9 @@ public class MyProgram extends GraphicsProgram {
 		add(Moustache);
 		
 		GRect EarL = new GRect(290, 300, 20, 35);
-		Nose.setFilled(true);
-		Nose.setColor(Color.DARK_GRAY);
-		add(Nose);
+		EarL.setFilled(true);
+		EarL.setColor(Color.RED);
+		add(EarL);
 		
 	}
 }
