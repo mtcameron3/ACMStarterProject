@@ -42,7 +42,7 @@ public class MyProgram extends GraphicsProgram {
 		EyeL.setColor(Color.LIGHT_GRAY);
 		add(EyeL);
 		
-		GRect Moustache = new GRect(280, 355, 195, 5);
+		GRect Moustache = new GRect(280, 355, 190, 5);
 		Moustache.setFilled(true);
 		Moustache.setColor(Color.GREEN);
 		add(Moustache);
