@@ -22,7 +22,7 @@ public class MyProgram extends GraphicsProgram {
 		head.setColor(Color.MAGENTA);
 		add(head);
 		
-		GRect mouth = new GRect(310, 270, 80, 10);
+		GRect mouth = new GRect(310, 270, 80, 20);
 		mouth.setFilled(true);
 		mouth.setColor(Color.YELLOW);
 		add(mouth);
