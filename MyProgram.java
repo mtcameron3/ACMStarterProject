@@ -49,7 +49,7 @@ public class MyProgram extends GraphicsProgram {
 		
 		GRect EarL = new GRect(285, 235, 15, 30);
 		EarL.setFilled(true);
-		EarL.setColor(Color.RED);
+		EarL.setColor(Color.CYAN);
 		add(EarL);
 		
 		GRect EarR = new GRect(450, 235, 15, 30);
