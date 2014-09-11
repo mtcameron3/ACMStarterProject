@@ -29,7 +29,7 @@ public class MyProgram extends GraphicsProgram {
 		
 		GRect Nose = new GRect(365, 300, 20, 15);
 		Nose.setFilled(true);
-		Nose.setColor(Color.BLUE);
+		Nose.setColor(Color.DARK_GRAY);
 		add(Nose);
 		
 	}
