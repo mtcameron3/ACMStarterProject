@@ -39,7 +39,7 @@ public class MyProgram extends GraphicsProgram {
 	
 		GOval EyeL = new GOval(380, 200, 20, 20);
 		EyeL.setFilled(true);
-		EyeR.setColor(Color.LIGHT_GRAY);
+		EyeL.setColor(Color.LIGHT_GRAY);
 		add(EyeL);
 		
 	}
