@@ -19,7 +19,7 @@ public class MyProgram extends GraphicsProgram {
 	public void run() {
 		GRect rect = new GRect(300, 150, 125, 200);
 		rect.setFilled(true);
-		rect.setColor(Color.RED);
+		rect.setColor(Color.MAGENTA);
 		add(rect);
 	}
 }
