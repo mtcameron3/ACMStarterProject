@@ -32,6 +32,11 @@ public class MyProgram extends GraphicsProgram {
 		Nose.setColor(Color.DARK_GRAY);
 		add(Nose);
 		
+		GOval EyeR = new GOval(320, 250, 20, 20);
+		EyeR.setFilled(true);
+		EyeR.setColor(Color.RED);
+		add(EyeR);
+		
 	}
 }
 
