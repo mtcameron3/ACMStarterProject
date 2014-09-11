@@ -22,7 +22,7 @@ public class MyProgram extends GraphicsProgram {
 		oval01.setFillColor(Color.RED);
 		add(oval01);
 		
-		GOval oval02 = new GOval(320, 120, 80, 80);
+		GOval oval02 = new GOval(310, 120, 80, 80);
 		oval02.setFilled(true);
 		oval02.setFillColor(Color.WHITE);
 		add(oval02);
