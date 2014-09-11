@@ -17,10 +17,16 @@ import java.awt.*;
 public class MyProgram extends GraphicsProgram {
 	
 	public void run() {
-		GRect rect = new GRect(300, 150, 125, 200);
-		rect.setFilled(true);
-		rect.setColor(Color.MAGENTA);
-		add(rect);
+		GRect head = new GRect(300, 150, 125, 200);
+		head.setFilled(true);
+		head.setColor(Color.MAGENTA);
+		add(head);
+		
+		GRect mouth = new GRect(300, 150, 125, 100);
+		mouth.setFilled(true);
+		mouth.setColor(Color.MAGENTA);
+		add(mouth);
+		
 	}
 }
 
